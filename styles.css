@@ -11,8 +11,9 @@ body {
 label {
   color: #9d5353;
 }
-input {
+input, textarea {
   padding: 7px;
+  background-color: #afacac;
 }
 .signup-title {
   text-align: center;
@@ -52,7 +53,6 @@ input {
   color: #9d5353;
   border: solid 1px #9d5353;
   transition: all 0.7s;
-
 }
 a {
   text-decoration: none;
