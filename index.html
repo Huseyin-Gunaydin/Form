@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formular</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="signup-page">
+      <h1 class="signup-title">Erstelle deinen Account</h1>
+      <form
+        action="https://formspree.io/f/mdobyjov"
+        class="signup-form"
+        method="post"
+      >
+        <label for="vorname">Vorname</label>
+        <input
+          name="vorname"
+          type="text"
+          id="vorname"
+          placeholder="Voname"
+          required
+        />
+
+        <label for="name">Name</label>
+        <input name="name" type="text" id="name" placeholder="name" required />
+
+        <label for="email">Email</label>
+        <input
+          name="email"
+          type="email"
+          placeholder="email"
+          id="email"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          name="password"
+          type="password"
+          id="password"
+          placeholder="pgit@github.com:Huseyin-Gunaydin/Form.gitassword"
+          required
+        />
+        <label for="geschlecht">Geschlecht</label>
+        <select id="geschlecht">
+          <option value="">Auswählen</option>
+          <option value="">Weiblich</option>
+          <option value="">Männlich</option>
+        </select>
+        <input type="checkbox" id="agree-terms" />
+        <label for="agree-terms"
+          >Zustimmen
+          <a href="#">Terms &amp; Conditions</a>
+        </label>
+        <button type="submit">Anmeldung</button>
+      </form>
+    </main>
+  </body>
+</html>
+git@github.com:Huseyin-Gunaydin/Form.git
