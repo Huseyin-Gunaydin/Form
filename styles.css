@@ -9,9 +9,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 label {
-  color: #9d5353;
+  color: #a17676;
+  font-size: 1.2rem;
 }
-input, textarea, select {
+input,
+textarea,
+select {
   padding: 7px;
   background-color: #afacac;
 }
@@ -60,6 +63,6 @@ a {
   color: rgb(72, 132, 228);
 }
 
-h1{
-  font-family: 'Smooch', cursive;
+h1 {
+  font-family: "Smooch", cursive;
 }
