@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url(https://mimarabya.files.wordpress.com/2017/09/k2.jpg?w=1024&h=658);
+    url(https://www.segensart.de/pub/media/catalog/product/cache/5a08db31ac5de620b6a44b34a3bb4b75/5/3/5331.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11,7 +11,7 @@ body {
 label {
   color: #9d5353;
 }
-input, textarea {
+input, textarea, select {
   padding: 7px;
   background-color: #afacac;
 }
@@ -58,4 +58,8 @@ a {
   text-decoration: none;
   font-size: 1.4rem;
   color: rgb(72, 132, 228);
+}
+
+h1{
+  font-family: 'Smooch', cursive;
 }
